@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/issumbosi/issumbosi1509/issumbosi150900008/45351226-colorful-orange-blue-gradient-polygonal-abstract-wallpaper-background.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: o;
+}
+
+.dropbtn{
+    background-color: rgb(116, 139, 240);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 20px 16px 10px (0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a{
+    color: rgb(116, 139, 240);
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: rgb(239, 176, 17);}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: rgb(239, 176, 17);
+    color:white
+}
+.pagination{
+    display: block;
+}
+.pagination a{
+    color:black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}

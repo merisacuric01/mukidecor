@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+}
+div{
+    background-color: aqua;
+}
+ul, li{
+    background-color: white;
+    color: black;
+    
+
+}
+ul li a{
+    border: solid;
+    border: none
+}
+    
+

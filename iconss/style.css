@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li{
+    display: inline;
+    padding: 20px;
+
+}
+.nav li button{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 40px;
+}
+
+.img{
+    align-items: center;
+    justify-content: center; 
+    width: 20px;   
+}
+button{
+    width: 120px;
+    height: 50px;
+}
+input{
+    border-radius: 5px;
+    height: 28px;
+    width: 300px;
+    align-items: center;
+}
+.google div{
+    justify-content: center;
+    align-items: center;
+}                                                                                                                                                                                                                                                                                                                                                                               
+

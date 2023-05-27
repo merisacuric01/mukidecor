@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(151, 151, 247);
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+.nav ul{
+     list-style: none;
+}
+.nav ul li{
+    display: inline;
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.nav h1{
+    color: blue;
+    font-size: 40px;
+}
+button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+h4{
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+}
+.switch{
+    text-align: center;
+    font-size: 35 px;
+    padding: 150px;
+}
+.download{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.download ul li{
+    display: block;
+
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: green;
+    margin:1px solid
+    
+}
+form{
+    background-color: white;
+    border: 1px solid black;
+    max-width: 500px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 500px;
+    
+}
+button{
+    background-color: green;
+}

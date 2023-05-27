@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100px;
+    width: auto;
+}
+h1, p{
+    color: red;
+}
+
+@media (may-width:200px){
+    h1, p{
+        color:blue
+    }
+}

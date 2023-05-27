@@ -1,0 +1,83 @@
+body {
+    margin: 100;
+    padding: 0;
+}
+
+
+img {
+    opacity: 0.2;
+}
+a button{
+    margin: 100px;
+}
+.button {
+        background-color: rgb(236, 113, 177);
+        border:none;
+        color: white;
+        padding: 15px 30px;
+        text-align: centers;
+        display: inline-block;
+        font-size: 16px;        
+        margin: 10px 5px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+
+}        
+        
+.button:hover {
+    background-color: white;
+    color:palevioletred;
+}
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+.topnav .search-container{
+    float: right;
+}
+.topnav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+
+}
+.topnav .search-container button{
+    float: right;
+    padding: 6px 10px;
+    cursor: pointer;
+    border:none;
+    font-size: 17px;
+    background: #ddd;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+.topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+}
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+}
+.topnav input[type=text] {
+      border: 1px solid #ccc;  
+}
+}
+
+
+
+
+
+
+        
+

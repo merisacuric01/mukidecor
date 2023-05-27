@@ -1,0 +1,26 @@
+/* *{
+    background-color: rgb(186, 231, 231);
+} */
+
+.m{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://wallpaperaccess.com/full/697539.jpg");
+    color: white;
+    
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+    margin: 38px;
+}
+ul li a :hover{
+    border: solid 1px;
+    background-color: red;
+    color:white;
+}
+

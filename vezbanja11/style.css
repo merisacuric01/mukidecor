@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    display:flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+div{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: solid 1px;
+    border-radius: 5px;
+}
+/* .flex1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border:solid 1px;
+    
+}
+.flex3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border:solid 1px;
+    
+
+    
+/* 
+}
+.flex2{
+    width: 200px;
+    border: solid 1px;
+    height: 200px;
+    background-color: aqua;
+}
+.flex3{
+    width: 200px;
+    border: solid 1px;
+    height: 200px;
+    background-color: aqua;
+} */ 

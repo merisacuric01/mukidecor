@@ -1,0 +1,118 @@
+/* card slider */
+.tim{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 230, 230);
+    position: relative;
+}
+.tim::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgb(230, 38, 38);
+    clip-path: inset(47% 0 0 0);
+    z-index: -1;
+
+}
+.cards .card .sadrzaj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.cards .card .sadrzaj .slika{
+    height: 130px;
+    width: 130px;
+    margin-bottom: 14px;
+    background-color: rgb(230, 38, 38);
+    padding: 3px;
+    border-radius: 50%;
+
+
+}
+.card .sadrzaj .slika img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+.card .sadrzaj .details .name{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.card .sadrzaj .details .span{
+    font-size: 20px;
+    color: blue;
+} 
+.card .sadrzaj .icons{
+    display: flex;
+    margin-top: 10px;
+}
+.card .sadrzaj .icons  a{
+    height: 35px;
+    width: 35px;
+    color: white;
+    background: rgb(230, 38, 38);
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+.sadrzaj .icons a:hover{
+    border-color: rgb(230, 38, 38);
+    color: rgb(230, 38, 38);
+    background: white;
+}
+.button{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+.details ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+.main-card .cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    width: calc(100% / 2 - 10px);
+
+
+    
+} 
+.main-card .cards .card{
+    background: white;
+    width: calc(100% / 3 - 10px);
+    padding: 30px;
+    border-radius: 24px;
+
+}
+.slider{
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    background: red;
+  
+
+
+}
+.slider .main-card{
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

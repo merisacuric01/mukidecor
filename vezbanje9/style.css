@@ -1,0 +1,29 @@
+input, select, textarea{
+    width: 100%;
+    padding: 5px;
+    
+    
+}
+form{
+    background-color:rgb(239, 239, 215);
+    border-radius: 20px;
+    margin: auto;
+}
+p{
+    background-color: white;
+    padding: 2px;
+    
+}
+button{
+    background-color:rgb(143, 210, 143);
+    border-radius: 5px;
+    color: white;
+    border:none
+    
+    
+    
+}
+button:hover{
+    background-color: black;
+}
+ 
